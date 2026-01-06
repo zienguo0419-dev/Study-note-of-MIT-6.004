@@ -2,11 +2,22 @@ Q1:Why log 2 as a quantification of information
 Type: Abstraction
 Future use:
     We require information meets:
-        1.The less probability, the more information
-        2.Its methmatical expression should meet: I(A,B)=I(A)+I(B).
+        1.Monotonicity: The less probability, the more information
+        2.Additivity: Its methmatical expression should meet: I(A,B)=I(A)+I(B).
     As if we know independent events A and B, the information contains both of their information.
-
-The most simple expression is f(p)= -klog(p).     We get log
+    Assume that x = P(A), y = P(B), what we want should meet Cauchy's functional equation:
+        f(x·y) = f(x) + f(y)
+    Take the partial derivative of y：
+        df(x.y)/dy ---> x·f'(x·y) = f(y)
+    Let y = 1:
+        xf'(x) = f(1) = k
+    then: 
+        f'(x) = k/x
+    Integration:
+        f(x) = kln(x) + C
+    Check: 
+        since x represents probability, so when x = 1, the information should be 0, thus C = 0. 
+    That's why we choose log to describe information.
 As for log2, since we use bit to quantify as how many yes or no requires to get to this probability
 
 Q2:What does fractional bits mean
