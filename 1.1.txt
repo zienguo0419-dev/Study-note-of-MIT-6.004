@@ -1,0 +1,24 @@
+Q1:Why log 2 as a quantification of information
+    We require information meets:
+        1.The less possibility, the more information
+        2.Its methmatical expression should meet: I(A,B)=I(A)+I(B).
+    As if we know independent events A and B, the information contains both of their information.
+
+The most simple expression is f(p)= -klog(p).     We get log
+As for log2, since we use bit to quantify as how many yes or no requires to get to this possibility
+
+Q2:What does fractional bits mean
+    Suppose we roll two dices,total possibilities are 36, and the information is I = log2(36/1) = 5.17...
+    means if we only count one roll, we need 6 bits,if we count 10 rolls, what we need is 52 but not 60. 
+    Fractional bits do not describe a single outcome’s code length, 
+    but the asymptotic average bits per symbol under optimal prefix coding.
+
+Q3:What does H(x) means
+    H(x) is the entropy of x，is the expectation of I(x), 
+    counts as the minimum average code length under the optimal prefix code 
+
+Q4:Why can we call H(x) as entropy
+
+Q5:The minimum average code quantifies the same range of minimum average code under the optimal prefix code
+    why we need to add the regulation: under the optimal prefix code
+
