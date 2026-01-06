@@ -20,7 +20,7 @@ Future use:
     That's why we choose log to describe information.
 As for log2, since we use bit to quantify as how many yes or no requires to get to this probability
 
-Q2:What does fractional bits mean
+Q2:What do fractional bits mean
 Type: Long term in average
 Future use:
     Suppose we roll two dices,total probabilities are 36, and the information is I = log2(36/1) = 5.17...
