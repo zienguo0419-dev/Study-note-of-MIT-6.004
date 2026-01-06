@@ -2,17 +2,17 @@ Q1:Why log 2 as a quantification of information
 Type: Abstraction
 Future use:
     We require information meets:
-        1.The less possibility, the more information
+        1.The less probability, the more information
         2.Its methmatical expression should meet: I(A,B)=I(A)+I(B).
     As if we know independent events A and B, the information contains both of their information.
 
 The most simple expression is f(p)= -klog(p).     We get log
-As for log2, since we use bit to quantify as how many yes or no requires to get to this possibility
+As for log2, since we use bit to quantify as how many yes or no requires to get to this probability
 
 Q2:What does fractional bits mean
 Type: Long term in average
 Future use:
-    Suppose we roll two dices,total possibilities are 36, and the information is I = log2(36/1) = 5.17...
+    Suppose we roll two dices,total probabilities are 36, and the information is I = log2(36/1) = 5.17...
     means if we only count one roll, we need 6 bits,if we count 10 rolls, what we need is 52 but not 60. 
     Fractional bits do not describe a single outcome’s code length, 
     but the asymptotic average bits per symbol under optimal prefix coding.
@@ -30,3 +30,7 @@ Future use:
 Q5:The minimum average code quantifies the same range of minimum average code under the optimal prefix code
 why we need to add the regulation: under the optimal prefix code
 Type: Abstraction
+
+Q6:Why should we use fixed length encoding when we don't know the probability
+Type: Lower bound
+    According to principle of maximum entropy, if we only know there are N symbols in total, to make sure we transmit the whole information, we need to assume   that it requires as much bit as it is, and that's when equal probability is, and fixed length encoding should be used.
