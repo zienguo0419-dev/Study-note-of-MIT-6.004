@@ -56,3 +56,36 @@ Future use: A unitive logic
 Q8:What is the work field of parity check? How can we solve other errors?
 
 If we want to detect E errors, we need minimum Hamming distance of E+1 between code words.
+
+Q9:How can we ensure the Hamming distance within a case that N bits fixed length code and M messages?
+Type:scope 
+[Layer 1: General feasibility bounds]
+
+Step 1: If M = 2^(N-k)
+    → Treat as linear code
+    → d_min = minimum weight of non-zero codeword
+
+Step 2: Otherwise, use classical bounds to estimate d_min
+
+    - Singleton Bound:
+        d_min ≤ N - log2(M) + 1
+        (General, loose)
+
+    - Plotkin Bound:
+        d_min <= NM/2(M-1)
+        Useful when d_min is large (roughly d > N/2)
+
+Q10：What does the worst case mean when we are discussing correction based on Hamming distance.
+Type:Abstraction
+    Worst case correction capability is determined by the minimum Hamming distance dmin, not by average distances.
+    Notice that receiver would naturally use nearest neighbour decode, e.g.: receive: 00011, HD to 00000: 2, HD to 11111: 3, so receiver think it receives 0. 
+    For example, when we are discussing on a 3 bits fixed-length code with 5 messages, their minimum hamming distance is 1, repeat 5 times, min HD = 5,
+    correction = [(d_min-1)/2]    (must be integer)
+    How can the correction formula stands? 
+        In a 2 bit code case, it's like an axis, the information would be corrected to the closer end.
+
+
+
+
+
+
