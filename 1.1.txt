@@ -52,3 +52,5 @@ Future use: A unitive logic
     For a binary string, its two's complement is 1 plus its bitwise inversion, for example, for 1 , 0000 0001, its two's complement -1 is 1111 1111。
     Notice that only when the binary string represents an integer the rule is correct.
     Two's complement allows a unitive logic of add and minus, because A - B = A + ~B
+
+Q8:What is the effect of parity?
