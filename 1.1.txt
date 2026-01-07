@@ -53,4 +53,6 @@ Future use: A unitive logic
     Notice that only when the binary string represents an integer the rule is correct.
     Two's complement allows a unitive logic of add and minus, because A - B = A + ~B
 
-Q8:What is the effect of parity?
+Q8:What is the work field of parity check? How can we solve other errors?
+
+If we want to detect E errors, we need minimum Hamming distance of E+1 between code words.
