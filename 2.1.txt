@@ -9,3 +9,7 @@ Type: Long term application
 Q3: Why do we forbid direct circle appears in the combinational digital system/component? What is the definition of direct circle?
 Type: Abstraction
   The direct circle does not mean feedback or circuit circle composed by wire and resistors, it means in a CDS, from any logic element, its dependence diagram must be a directed acylic graph (DAG), that is you cannot set off from element A and pass B,C..... then in some node back to A.
+
+Q4: What does tPD refers to, is it the longest delay in the whole circuit or in a specific line?
+Type: Abstraction
+  It is not a logic chain has a tPD but the whole circuit has a tPD, it refers to the worst case and the longest delay happens in the whole circuit.
