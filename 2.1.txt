@@ -4,4 +4,8 @@ Type: Long term application
 
 Q2: Why cannot we leave some ports empty in a combinational digital system?
 Type: Long term application
-  In the real world, the port left empty does not display the voltage as 0, but be effected by capacity/noise/nearby line/temperature/power. Thus the output of the system would somehow become a random function.
+  In the real world, the port left empty does not display the voltage as 0, but be effected by capacity/noise/nearby wire/temperature/power. Thus the output of the system would somehow become a random function.
+
+Q3: Why do we forbid direct circle appears in the combinational digital system/component? What is the definition of direct circle?
+Type: Abstraction
+  The direct circle does not mean feedback or circuit circle composed by wire and resistors, it means in a CDS, from any logic element, its dependence diagram must be a directed acylic graph (DAG), that is you cannot set off from element A and pass B,C..... then in some node back to A.
