@@ -1,1 +1,3 @@
-
+Q1: In the threshold part, attempt 1 (Using single VTH to be a threshold) is not suitable coz lots of voltages like VTH +- Verror set extremely close to VTH and it's costly to distinguish. Attempt2, however, also has VH and VL, and the distinguish problem and cost alwasy exist, how to solve it?
+Type: Long term application
+  The goal of attempt 2 is not to better distinguish but a regulation on the circuit, that, any voltage as signal should be as far as they can to the forbidden range, if the approach happens, that is the circuit design error.
