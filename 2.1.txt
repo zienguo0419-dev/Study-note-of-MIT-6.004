@@ -16,4 +16,4 @@ Type: Abstraction
 
 Q5: While digital output always need a larger margin than digital input, after numbers of logic elements, wouldn't the margin become too big and out of range?
 Type: Long term application
-    No, it will not infinitely become bigger. The logic gate is a regenerative device rather than just pass.
+    No, it will not infinitely become bigger. The logic gate is a regenerative device rather than just pass. During each logic gate like CMOS interver, NMOS connected to GND, PMOS shifted off entirely, output voltage again close to GND.
