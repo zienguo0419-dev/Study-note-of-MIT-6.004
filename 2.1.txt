@@ -20,4 +20,4 @@ Type: Long term application
 
 Q6: What is the purpose of threshold set?
 Type: Long term application
-  To maximize noise margins, either lower or higher one. So we should maximize VIL and VOH, minimize VIH and VOL
+  Given a fixed voltage transfer characteristic, increasing VIL increases the low-level noise margin NM_L, while decreasing VIH increases the high-level noise margin NM_H. To maximize overall noise immunity, VIL and VIH should be chosen such that NM_L and NM_H are balanced, rather than optimizing only one side.
