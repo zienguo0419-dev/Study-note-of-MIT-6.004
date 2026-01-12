@@ -20,4 +20,4 @@ Type: Long term application
 
 Q6: What is the purpose of threshold set?
 Type: Long term application
-  To maximize noise margins, either lower or higher one.
+  To maximize noise margins, either lower or higher one. So we should maximize VIL and VOH, minimize VIH and VOL
