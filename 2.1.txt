@@ -21,3 +21,7 @@ Type: Long term application
 Q6: What is the purpose of threshold set?
 Type: Long term application
   Given a fixed voltage transfer characteristic, increasing VIL increases the low-level noise margin NM_L, while decreasing VIH increases the high-level noise margin NM_H. To maximize overall noise immunity, VIL and VIH should be chosen such that NM_L and NM_H are balanced, rather than optimizing only one side.
+
+Q7: Should we maximize the noise immunity as far as we can?
+Type: Long term application
+  No. When we enlarge the noise immunity, what we are doing is compressing the middle area. i.e. in MOSFET, the middle area is always used to build a amplifier, which is always used in artificial circuit instead of digit circuit.
