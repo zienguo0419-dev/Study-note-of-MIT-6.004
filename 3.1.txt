@@ -1,1 +1,1 @@
-
+Q1: Why could MOS allow this description? Finally, we’ll want to be able to implement systems with useful functionality and so need to develop a catalog of the logic computations we want to perform. Quite remarkably, there is a circuit technology that will make our wishes come true! That technology is the subject of this lecture.
