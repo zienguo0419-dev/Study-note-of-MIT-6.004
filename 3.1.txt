@@ -17,3 +17,5 @@ Q4: Function of p-MOS & n-MOS, what difference
 Q5: What assumptions do we need when analyzing stable state? What if it is not ideal in real world?
 
 Q6: What happened when the output switch in CMOS
+
+Q7: Since drain and source are identical, why the current direction is from drain to source?
