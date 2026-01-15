@@ -11,3 +11,9 @@ MOS: Controlled by voltage ----> ideally no static power,
 However, if we try to set billions of items on a board, MOS has almost zero power dissipation, while which of BJT is high.
 
 Q3: Dennard Scaling
+
+Q4: Function of p-MOS & n-MOS, what difference
+
+Q5: What assumptions do we need when analyzing stable state
+
+Q6: What happened when the output switch in CMOS
