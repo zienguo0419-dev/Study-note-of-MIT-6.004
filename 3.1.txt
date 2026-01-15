@@ -5,8 +5,8 @@ Q1: Why could MOS allow this description? each device will have to be quite inex
 Q2: Why does HUST and MIT mention Moore's Law before studying MOSFET?
 Type: Long term application
 Let's turn to the perspective of scaling, based on the example BJT vs. MOS, MOS has no advantage on single board.
-BJT: Better gain, sensitive of offset, temperature, ...
-
-However, if we try to set billions of items on a board, MOS has almost zero power dissipation, allows 
+BJT: Controlled by current ----> High static power, Better gain, parameter accurate, sensitive to offset, temperature, ...
+MOS: Controlled by voltage ----> ideally no static power, 
+However, if we try to set billions of items on a board, MOS has almost zero power dissipation, while which of BJT is high.
 
 Q3: Dennard Scaling
