@@ -14,6 +14,6 @@ Q3: Dennard Scaling
 
 Q4: Function of p-MOS & n-MOS, what difference
 
-Q5: What assumptions do we need when analyzing stable state
+Q5: What assumptions do we need when analyzing stable state? What if it is not ideal in real world?
 
 Q6: What happened when the output switch in CMOS
