@@ -1,2 +1,12 @@
+Highly recommend not seperately but try to link and understand this whole chapter after reading all these notes.
+
 Q1: Why could MOS allow this description? each device will have to be quite inexpensive and small.if our system is idle and no internal voltages are changing, we’d like for our system to have zero power dissipation.
 
+Q2: Why does HUST and MIT mention Moore's Law before studying MOSFET?
+Type: Long term application
+Let's turn to the perspective of scaling, based on the example BJT vs. MOS, MOS has no advantage on single board.
+BJT: Better gain, sensitive of offset, temperature, ...
+
+However, if we try to set billions of items on a board, MOS has almost zero power dissipation, allows 
+
+Q3: Dennard Scaling
