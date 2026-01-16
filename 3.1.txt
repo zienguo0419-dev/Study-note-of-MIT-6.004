@@ -31,3 +31,5 @@ Q10: Why wouldn't the current turn zero after pinches off and why it still slowl
 
 Q11: Why does bulk connect to ground in nmos? but connect to VDD in pmos?
 VTH poaitive correlation to Vbulk - Vsource
+
+Q12: You may be wondering why we can’t use NFETs in pullup circuits or PFETs in pulldown circuits. You’ll get to explore the answer to this question in one of the lab assignments. Meanwhile, the short answer is that the signaling node will experience degraded signaling levels and we’ll loose the noise margins we’ve worked so hard to create!
