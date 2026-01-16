@@ -28,3 +28,6 @@ Include: Why when VGS>VTH, the channel starts to appear, how, automatically? Why
 https://ocw.mit.edu/courses/6-004-computation-structures-spring-2017/8ab313bffd2125bf69badbb56dc95c26_Slide04.png
 
 Q10: Why wouldn't the current turn zero after pinches off and why it still slowly increase with VDS in the saturation area.
+
+Q11: Why does bulk connect to ground in nmos? but connect to VDD in pmos?
+VTH poaitive correlation to Vbulk - Vsource
