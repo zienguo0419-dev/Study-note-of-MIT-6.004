@@ -26,3 +26,5 @@ Q8: The function of bulk terminal? Why MOS seen as an item with four electrical 
 Q9: How to explain the transformation in these series of image.
 Include: Why when VGS>VTH, the channel starts to appear, how, automatically? Why the depletion region thicker in the drain terminal? What would happen after the pinched off?
 https://ocw.mit.edu/courses/6-004-computation-structures-spring-2017/8ab313bffd2125bf69badbb56dc95c26_Slide04.png
+
+Q10: Why wouldn't the current turn zero after pinches off and why it still slowly increase with VDS in the saturation area.
