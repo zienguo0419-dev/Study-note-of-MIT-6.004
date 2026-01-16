@@ -21,3 +21,6 @@ Q6: What happened when the output switch in CMOS
 Q7: Since drain and source are identical, why the current direction is from drain to source?
 
 Q8: The function of bulk terminal? Why MOS seen as an item with four electrical terminals?
+
+Q9: How to explain the transformation in these series of image.
+https://ocw.mit.edu/courses/6-004-computation-structures-spring-2017/8ab313bffd2125bf69badbb56dc95c26_Slide04.png
