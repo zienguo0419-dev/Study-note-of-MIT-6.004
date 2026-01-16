@@ -21,6 +21,7 @@ Q6: What happened when the output switch in CMOS
 Q7: Since drain and source are identical, why the current direction is from drain to source?
 
 Q8: The function of bulk terminal? Why MOS seen as an item with four electrical terminals?
+(Combine Q7 and Q8 to understand why MOS is a four electrical terminal device)
 
 Q9: How to explain the transformation in these series of image.
 Include: Why when VGS>VTH, the channel starts to appear, how, automatically? Why the depletion region thicker in the drain terminal? What would happen after the pinched off?
